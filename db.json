@@ -1,26 +1,567 @@
 {
   "posts": [
-    {
-      "id": 1,
-      "user_name":"Ana Rebeca",
-      "user_subtitle":"Jesus Copy",
-      "title": "The Influence of Christ: Love, Teachings, and Salvation",
-      "avatar_url": "https://i.pinimg.com/236x/bc/43/60/bc4360bac1e89a91999dc3a2ec3f5a4d.jpg",
-      "background_url": "https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4",
-      "text": "Christ is a central figure in the history and beliefs of Christianity. According to the teachings of the Christian faith, he is the Son of God who incarnated and lived among human beings. His life and teachings are considered examples of love, humility, and compassion. He preached the importance of forgiveness and redemption, offering people the opportunity to attain salvation. Throughout the centuries, the message of Christ has influenced millions of people around the world, inspiring them to live according to his teachings and seek a deep relationship with God.",
-      "language": "English",
-      "is_featured": true,
-      "category": {
-        "name": "Christian",
-        "icon_url": "https://cdn-icons-png.flaticon.com/512/2651/2651101.png"
+  {
+    "id": 1,
+    "user_name": "Ana Rebeca",
+    "user_subtitle": "Jesus Copy",
+    "title": "The Influence of Christ: Love, Teachings, and Salvation",
+    "avatar_url": "https://i.pinimg.com/236x/bc/43/60/bc4360bac1e89a91999dc3a2ec3f5a4d.jpg",
+    "background_url": "https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4",
+    "text": "Christ is a central figure in the history and beliefs of Christianity. According to the teachings of the Christian faith, he is the Son of God who incarnated and lived among human beings. His life and teachings are considered examples of love, humility, and compassion. He preached the importance of forgiveness and redemption, offering people the opportunity to attain salvation. Throughout the centuries, the message of Christ has influenced millions of people around the world, inspiring them to live according to his teachings and seek a deep relationship with God.",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Christian",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2651/2651101.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Amazing Text",
+        "reviewer_nickname": "anna@teste.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "user_name": "John Doe",
+    "user_subtitle": "Subtitle 2",
+    "title": "Title 2",
+    "avatar_url": "https://randomuser.me/api/portraits/men/1.jpg",
+    "background_url": "https://picsum.photos/id/200/1200/800",
+    "text": "Text 2",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 2",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png"
+    },
+    "comments": [
+      {
+        "rate": 5,
+        "title": "Comment 1",
+        "reviewer_nickname": "user1@example.com"
       },
-      "comments": [
-        {
-          "rate": 4,
-          "title": "Amazing Text",
-          "reviewer_nickname": "anna@teste.com"
-        }
-      ]
-    }
-  ]
+      {
+        "rate": 3,
+        "title": "Comment 2",
+        "reviewer_nickname": "user2@example.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "user_name": "Jane Smith",
+    "user_subtitle": "Subtitle 3",
+    "title": "Title 3",
+    "avatar_url": "https://randomuser.me/api/portraits/women/1.jpg",
+    "background_url": "https://picsum.photos/id/201/1200/800",
+    "text": "Text 3",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 3",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922507.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Comment 3",
+        "reviewer_nickname": "user3@example.com"
+      },
+      {
+        "rate": 2,
+        "title": "Comment 4",
+        "reviewer_nickname": "user4@example.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "user_name": "David Johnson",
+    "user_subtitle": "Subtitle 4",
+    "title": "Title 4",
+    "avatar_url": "https://randomuser.me/api/portraits/men/2.jpg",
+    "background_url": "https://picsum.photos/id/202/1200/800",
+    "text": "Text 4",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 4",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922508.png"
+    },
+    "comments": [
+      {
+        "rate": 5,
+        "title": "Comment 5",
+        "reviewer_nickname": "user5@example.com"
+      },
+      {
+        "rate": 4,
+        "title": "Comment 6",
+        "reviewer_nickname": "user6@example.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "user_name": "Emily Wilson",
+    "user_subtitle": "Subtitle 5",
+    "title": "Title 5",
+    "avatar_url": "https://randomuser.me/api/portraits/women/2.jpg",
+    "background_url": "https://picsum.photos/id/203/1200/800",
+    "text": "Text 5",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 5",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922509.png"
+    },
+    "comments": [
+      {
+        "rate": 3,
+        "title": "Comment 7",
+        "reviewer_nickname": "user7@example.com"
+      },
+      {
+        "rate": 2,
+        "title": "Comment 8",
+        "reviewer_nickname": "user8@example.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "user_name": "Michael Brown",
+    "user_subtitle": "Subtitle 6",
+    "title": "Title 6",
+    "avatar_url": "https://randomuser.me/api/portraits/men/3.jpg",
+    "background_url": "https://picsum.photos/id/204/1200/800",
+    "text": "Text 6",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 6",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922510.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Comment 9",
+        "reviewer_nickname": "user9@example.com"
+      },
+      {
+        "rate": 5,
+        "title": "Comment 10",
+        "reviewer_nickname": "user10@example.com"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "user_name": "Olivia Taylor",
+    "user_subtitle": "Subtitle 7",
+    "title": "Title 7",
+    "avatar_url": "https://randomuser.me/api/portraits/women/3.jpg",
+    "background_url": "https://picsum.photos/id/205/1200/800",
+    "text": "Text 7",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 7",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922511.png"
+    },
+    "comments": [
+      {
+        "rate": 2,
+        "title": "Comment 11",
+        "reviewer_nickname": "user11@example.com"
+      },
+      {
+        "rate": 3,
+        "title": "Comment 12",
+        "reviewer_nickname": "user12@example.com"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "user_name": "William Thomas",
+    "user_subtitle": "Subtitle 8",
+    "title": "Title 8",
+    "avatar_url": "https://randomuser.me/api/portraits/men/4.jpg",
+    "background_url": "https://picsum.photos/id/206/1200/800",
+    "text": "Text 8",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 8",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922512.png"
+    },
+    "comments": [
+      {
+        "rate": 5,
+        "title": "Comment 13",
+        "reviewer_nickname": "user13@example.com"
+      },
+      {
+        "rate": 4,
+        "title": "Comment 14",
+        "reviewer_nickname": "user14@example.com"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "user_name": "Sophia Anderson",
+    "user_subtitle": "Subtitle 9",
+    "title": "Title 9",
+    "avatar_url": "https://randomuser.me/api/portraits/women/4.jpg",
+    "background_url": "https://picsum.photos/id/207/1200/800",
+    "text": "Text 9",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 9",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922513.png"
+    },
+    "comments": [
+      {
+        "rate": 3,
+        "title": "Comment 15",
+        "reviewer_nickname": "user15@example.com"
+      },
+      {
+        "rate": 2,
+        "title": "Comment 16",
+        "reviewer_nickname": "user16@example.com"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "user_name": "James Martinez",
+    "user_subtitle": "Subtitle 10",
+    "title": "Title 10",
+    "avatar_url": "https://randomuser.me/api/portraits/men/5.jpg",
+    "background_url": "https://picsum.photos/id/208/1200/800",
+    "text": "Text 10",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 10",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922514.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Comment 17",
+        "reviewer_nickname": "user17@example.com"
+      },
+      {
+        "rate": 5,
+        "title": "Comment 18",
+        "reviewer_nickname": "user18@example.com"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "user_name": "Ava Wilson",
+    "user_subtitle": "Subtitle 11",
+    "title": "Title 11",
+    "avatar_url": "https://randomuser.me/api/portraits/women/5.jpg",
+    "background_url": "https://picsum.photos/id/209/1200/800",
+    "text": "Text 11",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 11",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922515.png"
+    },
+    "comments": [
+      {
+        "rate": 2,
+        "title": "Comment 19",
+        "reviewer_nickname": "user19@example.com"
+      },
+      {
+        "rate": 3,
+        "title": "Comment 20",
+        "reviewer_nickname": "user20@example.com"
+      }
+    ]
+  },
+     {
+    "id": 11,
+    "user_name": "Ava Wilson",
+    "user_subtitle": "Subtitle 11",
+    "title": "Title 11",
+    "avatar_url": "https://randomuser.me/api/portraits/women/5.jpg",
+    "background_url": "https://picsum.photos/id/209/1200/800",
+    "text": "Text 11",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 11",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922515.png"
+    },
+    "comments": [
+      {
+        "rate": 2,
+        "title": "Comment 19",
+        "reviewer_nickname": "user19@example.com"
+      },
+      {
+        "rate": 3,
+        "title": "Comment 20",
+        "reviewer_nickname": "user20@example.com"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "user_name": "Emma Thompson",
+    "user_subtitle": "Subtitle 12",
+    "title": "Title 12",
+    "avatar_url": "https://randomuser.me/api/portraits/women/6.jpg",
+    "background_url": "https://picsum.photos/id/210/1200/800",
+    "text": "Text 12",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 12",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922516.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Comment 21",
+        "reviewer_nickname": "user21@example.com"
+      },
+      {
+        "rate": 5,
+        "title": "Comment 22",
+        "reviewer_nickname": "user22@example.com"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "user_name": "Liam Anderson",
+    "user_subtitle": "Subtitle 13",
+    "title": "Title 13",
+    "avatar_url": "https://randomuser.me/api/portraits/men/6.jpg",
+    "background_url": "https://picsum.photos/id/211/1200/800",
+    "text": "Text 13",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 13",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922517.png"
+    },
+    "comments": [
+      {
+        "rate": 3,
+        "title": "Comment 23",
+        "reviewer_nickname": "user23@example.com"
+      },
+      {
+        "rate": 2,
+        "title": "Comment 24",
+        "reviewer_nickname": "user24@example.com"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "user_name": "Sophia Brown",
+    "user_subtitle": "Subtitle 14",
+    "title": "Title 14",
+    "avatar_url": "https://randomuser.me/api/portraits/women/7.jpg",
+    "background_url": "https://picsum.photos/id/212/1200/800",
+    "text": "Text 14",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 14",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922518.png"
+    },
+    "comments": [
+      {
+        "rate": 5,
+        "title": "Comment 25",
+        "reviewer_nickname": "user25@example.com"
+      },
+      {
+        "rate": 4,
+        "title": "Comment 26",
+        "reviewer_nickname": "user26@example.com"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "user_name": "Noah Davis",
+    "user_subtitle": "Subtitle 15",
+    "title": "Title 15",
+    "avatar_url": "https://randomuser.me/api/portraits/men/7.jpg",
+    "background_url": "https://picsum.photos/id/213/1200/800",
+    "text": "Text 15",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 15",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922519.png"
+    },
+    "comments": [
+      {
+        "rate": 2,
+        "title": "Comment 27",
+        "reviewer_nickname": "user27@example.com"
+      },
+      {
+        "rate": 3,
+        "title": "Comment 28",
+        "reviewer_nickname": "user28@example.com"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "user_name": "Isabella Wilson",
+    "user_subtitle": "Subtitle 16",
+    "title": "Title 16",
+    "avatar_url": "https://randomuser.me/api/portraits/women/8.jpg",
+    "background_url": "https://picsum.photos/id/214/1200/800",
+    "text": "Text 16",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 16",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922520.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Comment 29",
+        "reviewer_nickname": "user29@example.com"
+      },
+      {
+        "rate": 5,
+        "title": "Comment 30",
+        "reviewer_nickname": "user30@example.com"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "user_name": "Mason Johnson",
+    "user_subtitle": "Subtitle 17",
+    "title": "Title 17",
+    "avatar_url": "https://randomuser.me/api/portraits/men/8.jpg",
+    "background_url": "https://picsum.photos/id/215/1200/800",
+    "text": "Text 17",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 17",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922521.png"
+    },
+    "comments": [
+      {
+        "rate": 3,
+        "title": "Comment 31",
+        "reviewer_nickname": "user31@example.com"
+      },
+      {
+        "rate": 2,
+        "title": "Comment 32",
+        "reviewer_nickname": "user32@example.com"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "user_name": "Grace Thompson",
+    "user_subtitle": "Subtitle 18",
+    "title": "Title 18",
+    "avatar_url": "https://randomuser.me/api/portraits/women/9.jpg",
+    "background_url": "https://picsum.photos/id/216/1200/800",
+    "text": "Text 18",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 18",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922522.png"
+    },
+    "comments": [
+      {
+        "rate": 5,
+        "title": "Comment 33",
+        "reviewer_nickname": "user33@example.com"
+      },
+      {
+        "rate": 4,
+        "title": "Comment 34",
+        "reviewer_nickname": "user34@example.com"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "user_name": "Logan Garcia",
+    "user_subtitle": "Subtitle 19",
+    "title": "Title 19",
+    "avatar_url": "https://randomuser.me/api/portraits/men/9.jpg",
+    "background_url": "https://picsum.photos/id/217/1200/800",
+    "text": "Text 19",
+    "language": "English",
+    "is_featured": true,
+    "category": {
+      "name": "Category 19",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922523.png"
+    },
+    "comments": [
+      {
+        "rate": 2,
+        "title": "Comment 35",
+        "reviewer_nickname": "user35@example.com"
+      },
+      {
+        "rate": 3,
+        "title": "Comment 36",
+        "reviewer_nickname": "user36@example.com"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "user_name": "Charlotte Moore",
+    "user_subtitle": "Subtitle 20",
+    "title": "Title 20",
+    "avatar_url": "https://randomuser.me/api/portraits/women/10.jpg",
+    "background_url": "https://picsum.photos/id/218/1200/800",
+    "text": "Text 20",
+    "language": "English",
+    "is_featured": false,
+    "category": {
+      "name": "Category 20",
+      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922524.png"
+    },
+    "comments": [
+      {
+        "rate": 4,
+        "title": "Comment 37",
+        "reviewer_nickname": "user37@example.com"
+      },
+      {
+        "rate": 5,
+        "title": "Comment 38",
+        "reviewer_nickname": "user38@example.com"
+      }
+    ]
+  }
+]
+
 }
