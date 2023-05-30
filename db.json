@@ -264,33 +264,6 @@
         "reviewer_nickname": "user18@example.com"
       }
     ]
-  },
-  {
-    "id": 11,
-    "user_name": "Ava Wilson",
-    "user_subtitle": "Subtitle 11",
-    "title": "Title 11",
-    "avatar_url": "https://randomuser.me/api/portraits/women/5.jpg",
-    "background_url": "https://picsum.photos/id/209/1200/800",
-    "text": "Text 11",
-    "language": "English",
-    "is_featured": true,
-    "category": {
-      "name": "Category 11",
-      "icon_url": "https://cdn-icons-png.flaticon.com/512/2922/2922515.png"
-    },
-    "comments": [
-      {
-        "rate": 2,
-        "title": "Comment 19",
-        "reviewer_nickname": "user19@example.com"
-      },
-      {
-        "rate": 3,
-        "title": "Comment 20",
-        "reviewer_nickname": "user20@example.com"
-      }
-    ]
   }
 ]
 }
