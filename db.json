@@ -1,7 +1,11 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+    {
+      "id": 1,
+      "title": "Annie Rokae Art, purple, pink and blue paint.",
+      "avatar_url": "https://i.pinimg.com/236x/bc/43/60/bc4360bac1e89a91999dc3a2ec3f5a4d.jpg",
+      "background_url": "https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4",
+      "preview_text":"Christ is a central figure in the history and..."
+    }
+  ]
 }
